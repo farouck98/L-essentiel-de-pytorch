@@ -9,8 +9,6 @@ print(f"Grad_fn = {X.grad_fn}")
 Y = X * 2
 print(f"Y={Y}")
 print(f"Grad_fn = {Y.grad_fn}")
-
-
 """
 Y = X ** 2
 print(f"Y={Y}")
