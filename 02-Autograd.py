@@ -9,6 +9,7 @@ Y.retain_grad()
 X.retain_grad()
 
 print("======Grad avant la propagation :======")
+
 print(f"Y={Y}")
 print(f"Grad de Y= {Y.grad}")
 print(f"X={X}")
